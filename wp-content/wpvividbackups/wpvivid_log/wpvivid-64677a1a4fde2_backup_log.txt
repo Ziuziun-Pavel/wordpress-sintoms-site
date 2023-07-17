@@ -1,0 +1,181 @@
+Log created: 2023-05-19 16:31:06
+Type: backup
+[2023-05-19 16:31:09][notice]Start backing up.
+[2023-05-19 16:31:09][notice]server info fcgi:Off max execution time: 300 wp version:5.9 php version:7.3.9 db version:5.5.30 php ini:safe_mode: memory_limit:256M memory_get_usage:125,22 МБ memory_get_peak_usage:128,70 МБ extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2023-05-19 16:31:09][notice]Prepare to backup backup_db files.
+[2023-05-19 16:31:09][notice]Start exporting database.
+[2023-05-19 16:31:09][notice]Preparing to dump table wp_pmxe_posts
+[2023-05-19 16:31:10][notice]Preparing to dump table wp_wt_iew_mapping_template
+[2023-05-19 16:31:10][notice]Preparing to dump table wp_wpf_filters
+[2023-05-19 16:31:10][notice]Preparing to dump table wp_pmxe_templates
+[2023-05-19 16:31:10][notice]Preparing to dump table wp_pmxe_exports
+[2023-05-19 16:31:10][notice]Preparing to dump table wp_wc_category_lookup
+[2023-05-19 16:31:10][notice]Preparing to dump table wp_wpf_modules_type
+[2023-05-19 16:31:10][notice]Preparing to dump table wp_mailpoet_statistics_bounces
+[2023-05-19 16:31:10][notice]Preparing to dump table wp_wt_iew_action_history
+[2023-05-19 16:31:10][notice]Preparing to dump table wp_woocommerce_shipping_zone_methods
+[2023-05-19 16:31:10][notice]Preparing to dump table wp_wc_reserved_stock
+[2023-05-19 16:31:10][notice]Preparing to dump table wp_mailpoet_log
+[2023-05-19 16:31:10][notice]Preparing to dump table wp_mailpoet_forms
+[2023-05-19 16:31:11][notice]Preparing to dump table wp_gla_merchant_issues
+[2023-05-19 16:31:11][notice]Preparing to dump table wp_woocommerce_shipping_zones
+[2023-05-19 16:31:11][notice]Preparing to dump table wp_akeeba_common
+[2023-05-19 16:31:11][notice]Preparing to dump table wp_ak_users
+[2023-05-19 16:31:11][notice]Preparing to dump table wp_ak_params
+[2023-05-19 16:31:11][notice]Preparing to dump table wp_wishsuite_list
+[2023-05-19 16:31:11][notice]Preparing to dump table wp_ak_profiles
+[2023-05-19 16:31:11][notice]Preparing to dump table wp_ak_storage
+[2023-05-19 16:31:11][notice]Preparing to dump table wp_cfs_sessions
+[2023-05-19 16:31:11][notice]Preparing to dump table wp_ewwwio_queue
+[2023-05-19 16:31:11][notice]Preparing to dump table wp_wpf_meta_values_bk
+[2023-05-19 16:31:11][notice]Preparing to dump table wp_woocommerce_log
+[2023-05-19 16:31:11][notice]Preparing to dump table wp_wpf_modules
+[2023-05-19 16:31:11][notice]Preparing to dump table wp_mailpoet_subscriber_custom_field
+[2023-05-19 16:31:12][notice]Preparing to dump table wp_mailpoet_subscriber_ips
+[2023-05-19 16:31:12][notice]Preparing to dump table wp_mailpoet_user_flags
+[2023-05-19 16:31:12][notice]Preparing to dump table wp_mailpoet_user_agents
+[2023-05-19 16:31:12][notice]Preparing to dump table wp_wpf_meta_keys
+[2023-05-19 16:31:12][notice]Preparing to dump table wp_actionscheduler_claims
+[2023-05-19 16:31:12][notice]Preparing to dump table wp_woocommerce_attribute_taxonomies
+[2023-05-19 16:31:12][notice]Preparing to dump table wp_actionscheduler_groups
+[2023-05-19 16:31:12][notice]Preparing to dump table wp_woocommerce_payment_tokens
+[2023-05-19 16:31:12][notice]Preparing to dump table wp_woocommerce_sessions
+[2023-05-19 16:31:12][notice]Preparing to dump table wp_mailpoet_statistics_forms
+[2023-05-19 16:31:12][notice]Preparing to dump table wp_mailpoet_settings
+[2023-05-19 16:31:12][notice]Preparing to dump table wp_yith_wcwl
+[2023-05-19 16:31:12][notice]Preparing to dump table wp_mailpoet_newsletter_option
+[2023-05-19 16:31:13][notice]Preparing to dump table wp_wc_webhooks
+[2023-05-19 16:31:13][notice]Preparing to dump table wp_wc_tax_rate_classes
+[2023-05-19 16:31:13][notice]Preparing to dump table wp_gla_shipping_times
+[2023-05-19 16:31:13][notice]Preparing to dump table wp_links
+[2023-05-19 16:31:13][notice]Preparing to dump table wp_mailpoet_custom_fields
+[2023-05-19 16:31:13][notice]Preparing to dump table wp_mailpoet_dynamic_segment_filters
+[2023-05-19 16:31:13][notice]Preparing to dump table wp_mailpoet_feature_flags
+[2023-05-19 16:31:13][notice]Preparing to dump table wp_yoast_migrations
+[2023-05-19 16:31:13][notice]Preparing to dump table wp_mailpoet_mapping_to_external_entities
+[2023-05-19 16:31:13][notice]Preparing to dump table wp_mailpoet_newsletter_option_fields
+[2023-05-19 16:31:13][notice]Preparing to dump table wp_mailpoet_newsletter_posts
+[2023-05-19 16:31:13][notice]Preparing to dump table wp_wc_rate_limits
+[2023-05-19 16:31:13][notice]Preparing to dump table wp_mailpoet_scheduled_task_subscribers
+[2023-05-19 16:31:13][notice]Preparing to dump table wp_wpf_usage_stat
+[2023-05-19 16:31:13][notice]Preparing to dump table wp_woocommerce_order_items
+[2023-05-19 16:31:14][notice]Preparing to dump table wp_mailpoet_newsletter_segment
+[2023-05-19 16:31:14][notice]Preparing to dump table wp_wc_order_tax_lookup
+[2023-05-19 16:31:14][notice]Preparing to dump table wp_wc_customer_lookup
+[2023-05-19 16:31:14][notice]Preparing to dump table wp_wc_download_log
+[2023-05-19 16:31:14][notice]Preparing to dump table wp_wc_order_coupon_lookup
+[2023-05-19 16:31:14][notice]Preparing to dump table wp_woocommerce_api_keys
+[2023-05-19 16:31:14][notice]Preparing to dump table wp_woocommerce_payment_tokenmeta
+[2023-05-19 16:31:14][notice]Preparing to dump table wp_mailpoet_statistics_newsletters
+[2023-05-19 16:31:14][notice]Preparing to dump table wp_woocommerce_shipping_zone_locations
+[2023-05-19 16:31:14][notice]Preparing to dump table wp_mailpoet_sending_queues
+[2023-05-19 16:31:14][notice]Preparing to dump table wp_actionscheduler_logs
+[2023-05-19 16:31:14][notice]Preparing to dump table wp_ak_stats
+[2023-05-19 16:31:14][notice]Preparing to dump table wp_commentmeta
+[2023-05-19 16:31:14][notice]Preparing to dump table wp_yith_wcwl_lists
+[2023-05-19 16:31:15][notice]Preparing to dump table wp_gla_shipping_rates
+[2023-05-19 16:31:15][notice]Preparing to dump table wp_mailpoet_newsletters
+[2023-05-19 16:31:15][notice]Preparing to dump table wp_mailpoet_segments
+[2023-05-19 16:31:15][notice]Preparing to dump table wp_woocommerce_order_itemmeta
+[2023-05-19 16:31:15][notice]Preparing to dump table wp_mailpoet_stats_notifications
+[2023-05-19 16:31:15][notice]Preparing to dump table wp_mailpoet_subscriber_segment
+[2023-05-19 16:31:15][notice]Preparing to dump table wp_wpf_meta_values
+[2023-05-19 16:31:15][notice]Preparing to dump table wp_woocommerce_tax_rate_locations
+[2023-05-19 16:31:15][notice]Preparing to dump table wp_usermeta
+[2023-05-19 16:31:15][notice]Preparing to dump table wp_mailpoet_statistics_clicks
+[2023-05-19 16:31:15][notice]Preparing to dump table wp_mailpoet_statistics_unsubscribes
+[2023-05-19 16:31:16][notice]Preparing to dump table wp_mailpoet_newsletter_links
+[2023-05-19 16:31:16][notice]Preparing to dump table wp_users
+[2023-05-19 16:31:16][notice]Preparing to dump table wp_wc_order_stats
+[2023-05-19 16:31:16][notice]Preparing to dump table wp_woocommerce_tax_rates
+[2023-05-19 16:31:16][notice]Preparing to dump table wp_yoast_seo_links
+[2023-05-19 16:31:16][notice]Preparing to dump table wp_woocommerce_downloadable_product_permissions
+[2023-05-19 16:31:16][notice]Preparing to dump table wp_wc_order_product_lookup
+[2023-05-19 16:31:16][notice]Preparing to dump table wp_wc_admin_notes
+[2023-05-19 16:31:16][notice]Preparing to dump table wp_wc_admin_note_actions
+[2023-05-19 16:31:16][notice]Preparing to dump table wp_mailpoet_statistics_woocommerce_purchases
+[2023-05-19 16:31:16][notice]Preparing to dump table wp_wpf_meta_data
+[2023-05-19 16:31:16][notice]Preparing to dump table wp_mailpoet_scheduled_tasks
+[2023-05-19 16:31:16][notice]Preparing to dump table wp_mailpoet_statistics_opens
+[2023-05-19 16:31:16][notice]Preparing to dump table wp_comments
+[2023-05-19 16:31:17][notice]Preparing to dump table wp_actionscheduler_actions
+[2023-05-19 16:31:17][notice]Preparing to dump table wp_mailpoet_subscribers
+[2023-05-19 16:31:17][notice]Preparing to dump table wp_yoast_primary_term
+[2023-05-19 16:31:17][notice]Preparing to dump table wp_terms
+[2023-05-19 16:31:17][notice]Preparing to dump table wp_term_taxonomy
+[2023-05-19 16:31:17][notice]Preparing to dump table wp_gla_budget_recommendations
+[2023-05-19 16:31:17][notice]Preparing to dump table wp_yoast_indexable_hierarchy
+[2023-05-19 16:31:17][notice]Preparing to dump table wp_pmxe_google_cats
+[2023-05-19 16:31:18][notice]Preparing to dump table wp_wc_product_meta_lookup
+[2023-05-19 16:31:18][notice]Preparing to dump table wp_termmeta
+[2023-05-19 16:31:18][notice]Preparing to dump table wp_cfs_values
+[2023-05-19 16:31:18][notice]Preparing to dump table wp_ewwwio_images
+[2023-05-19 16:31:19][notice]Preparing to dump table wp_mailpoet_newsletter_templates
+[2023-05-19 16:31:19][notice]Preparing to dump table wp_posts
+[2023-05-19 16:31:19][notice]Preparing to dump table wp_yoast_indexable
+[2023-05-19 16:31:19][notice]Preparing to dump table wp_term_relationships
+[2023-05-19 16:31:20][notice]Preparing to dump table wp_options
+[2023-05-19 16:31:21][notice]Preparing to dump table wp_woof_query_cache
+[2023-05-19 16:31:23][notice]Preparing to dump table wp_postmeta
+[2023-05-19 16:32:09][notice]Exporting database finished.
+[2023-05-19 16:32:09][notice]Start compressing database
+[2023-05-19 16:32:09][notice]Prepare to zip file. file: test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_db.sql
+[2023-05-19 16:32:13][notice]Adding zip files completed.test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_db.part001.zip, filesize: 7,12 МБ
+[2023-05-19 16:32:13][notice]Compressing database completed
+[2023-05-19 16:32:13][notice]Backing up backup_db completed.
+[2023-05-19 16:32:13][notice]Prepare to backup backup_themes files.
+[2023-05-19 16:32:14][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_themes.part001.zip index:500
+[2023-05-19 16:32:15][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_themes.part001.zip success. index:500 file size:8,83 МБ
+[2023-05-19 16:32:15][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_themes.part001.zip index:1000
+[2023-05-19 16:32:15][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_themes.part001.zip success. index:1000 file size:13,41 МБ
+[2023-05-19 16:32:16][notice]Backing up backup_themes completed.
+[2023-05-19 16:32:16][notice]Prepare to backup backup_plugin files.
+[2023-05-19 16:32:20][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip index:500
+[2023-05-19 16:32:21][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip success. index:500 file size:2,50 МБ
+[2023-05-19 16:32:21][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip index:1000
+[2023-05-19 16:32:22][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip success. index:1000 file size:4,18 МБ
+[2023-05-19 16:32:22][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip index:1500
+[2023-05-19 16:32:23][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip success. index:1500 file size:5,46 МБ
+[2023-05-19 16:32:23][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip index:2000
+[2023-05-19 16:32:23][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip success. index:2000 file size:6,22 МБ
+[2023-05-19 16:32:23][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip index:2500
+[2023-05-19 16:32:24][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip success. index:2500 file size:6,65 МБ
+[2023-05-19 16:32:24][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip index:3000
+[2023-05-19 16:32:24][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip success. index:3000 file size:7,58 МБ
+[2023-05-19 16:32:24][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip index:3500
+[2023-05-19 16:32:25][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip success. index:3500 file size:9,42 МБ
+[2023-05-19 16:32:25][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip index:4000
+[2023-05-19 16:32:26][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip success. index:4000 file size:10,13 МБ
+[2023-05-19 16:32:26][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip index:4500
+[2023-05-19 16:32:27][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip success. index:4500 file size:11,97 МБ
+[2023-05-19 16:32:27][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip index:5000
+[2023-05-19 16:32:28][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip success. index:5000 file size:12,85 МБ
+[2023-05-19 16:32:28][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip index:5500
+[2023-05-19 16:32:28][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip success. index:5500 file size:13,47 МБ
+[2023-05-19 16:32:28][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip index:6000
+[2023-05-19 16:32:29][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip success. index:6000 file size:14,23 МБ
+[2023-05-19 16:32:29][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip index:6500
+[2023-05-19 16:32:30][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip success. index:6500 file size:15,18 МБ
+[2023-05-19 16:32:30][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip index:7000
+[2023-05-19 16:32:31][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip success. index:7000 file size:16,12 МБ
+[2023-05-19 16:32:31][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip index:7500
+[2023-05-19 16:32:32][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip success. index:7500 file size:16,75 МБ
+[2023-05-19 16:32:32][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip index:8000
+[2023-05-19 16:32:33][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip success. index:8000 file size:17,25 МБ
+[2023-05-19 16:32:33][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip index:8500
+[2023-05-19 16:32:33][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip success. index:8500 file size:17,70 МБ
+[2023-05-19 16:32:34][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip index:9000
+[2023-05-19 16:32:34][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip success. index:9000 file size:18,09 МБ
+[2023-05-19 16:32:34][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip index:9500
+[2023-05-19 16:32:35][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip success. index:9500 file size:18,60 МБ
+[2023-05-19 16:32:35][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip index:10000
+[2023-05-19 16:32:36][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip success. index:10000 file size:19,64 МБ
+[2023-05-19 16:32:36][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip index:10500
+[2023-05-19 16:32:37][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip success. index:10500 file size:20,27 МБ
+[2023-05-19 16:32:37][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip index:11000
+[2023-05-19 16:32:38][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip success. index:11000 file size:20,79 МБ
+[2023-05-19 16:32:38][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip index:11500
+[2023-05-19 16:32:41][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip success. index:11500 file size:27,55 МБ
+[2023-05-19 16:32:41][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip index:12000
+[2023-05-19 16:32:45][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip success. index:12000 file size:37,55 МБ
+[2023-05-19 16:32:45][notice]Compressing zip file:test.sintoms.com_wpvivid-64677a1a4fde2_2023-05-19-16-31_backup_plugin.part001.zip index:12500

@@ -1,0 +1,959 @@
+# Translation of Plugins - Premmerce - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Premmerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-02-27 10:12:18+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Premmerce - Stable (latest release)\n"
+
+#: src/Data/Tasks.php:712
+msgid "Add additional currency and make all necessary settings to ensure the smooth run of your store."
+msgstr "Добавить необходимую вторую валюту, которая должна отображаться и настроить способ отображения."
+
+#: src/Data/Tasks.php:706
+msgid "This is an alternative way to add multicurrency to your store in case the multilanguage option is not necessary."
+msgstr "Это альтернатива плагину от WPML - в случае, если ваш интернет-магазин требует только мультивалютности, но требует мультиязычности."
+
+#: src/Data/Tasks.php:686
+msgid "This plugins are essential for the translation of your WooCommerce store."
+msgstr "Это дополнительные базовые плагины для возможности перевода WooCommerce."
+
+#: src/Data/Tasks.php:685
+msgid "Install WPML plugins: Media Translation, Translation Management, String Translation, WooCommerce Multilingual"
+msgstr "Установите плагины WPML: Media Translation, Translation Management, String Translation, WooCommerce Multilingual"
+
+#: src/Data/Tasks.php:612
+msgid "Turn on"
+msgstr "Включить"
+
+#: src/Data/Tasks.php:609
+msgid "It's recommended that you use transliteration in your URLs to avoid any further errors."
+msgstr "Рекомендуется использовать транслитерацию в своих URL-адресах, чтобы избежать дальнейших ошибок."
+
+#: src/Data/Tasks.php:608
+msgid "Turn on the transliteration settings if your store does not use English."
+msgstr "Включите настройки транслитерации, если ваш магазин не использует английский."
+
+#: src/Admin/Handlers/PremiumHandler.php:39
+msgid "WPML"
+msgstr "Мультиязычность"
+
+#: src/Admin/Handlers/PremiumHandler.php:37
+msgid "Manage Imports"
+msgstr "Управление импортами"
+
+#: src/Admin/Handlers/PremiumHandler.php:36
+msgid "New Import"
+msgstr "Новый импорт"
+
+#: src/Admin/Handlers/PremiumHandler.php:35
+msgid "WP Rocket"
+msgstr "Кэш"
+
+#: src/Admin/Handlers/PremiumHandler.php:34
+msgid "All Export"
+msgstr "Экспорт"
+
+#: src/Admin/Handlers/PremiumHandler.php:33
+msgid "All Import"
+msgstr "Импорт"
+
+#: src/Admin/Handlers/PremiumHandler.php:32
+msgid "MetaSlider"
+msgstr "Управление баннерами"
+
+#: src/Admin/Handlers/PremiumHandler.php:31
+msgid "Roles"
+msgstr "Роли пользователей"
+
+#: src/Admin/Handlers/PremiumHandler.php:30
+msgid "Contact Form 7"
+msgstr "Обратная связь"
+
+#: src/Admin/Handlers/PremiumHandler.php:29
+msgid "Setup Wizard"
+msgstr "Мастер установки"
+
+#: src/Admin/Handlers/PremiumHandler.php:28
+msgid "Store Settings"
+msgstr "Настройки магазина"
+
+#: src/Admin/Handlers/PremiumHandler.php:27
+msgid "General Settings"
+msgstr "Общие настройки"
+
+#: src/Admin/Admin.php:127 src/Admin/Handlers/PremiumHandler.php:38
+msgid "Settings"
+msgstr "Настройки"
+
+#: src/Admin/AdditionalSettings.php:65
+msgid "Enable slugs transliteration"
+msgstr "Включить транслитерацию ссылок"
+
+#: src/Admin/AdditionalSettings.php:57
+msgid "Slugs"
+msgstr "Cсылки"
+
+#: src/Admin/AdditionalSettings.php:46
+msgid "Use the same cache for all logged in users"
+msgstr "Использовать один кэш для всех зарегистрированных пользователей"
+
+#: src/Admin/AdditionalSettings.php:39
+msgid "Cache"
+msgstr "Кэш"
+
+#: src/Data/Tasks.php:604
+msgid "https://premmerce.com/woocommerce-product-bundles/"
+msgstr "https://www.imagecms.net/blog/plugins-premmerce/premmerce-woocommerce-product-bundles/"
+
+#: src/Data/Tasks.php:599
+msgid "This plugin is used to add bundles of products with discounts and to display them as a list on a  product page."
+msgstr "Данный плагин позволяет использовать комплекты товаров в вашем интернет-магазине"
+
+#: src/Data/Tasks.php:598
+msgid "Premmerce Woocommerce Product Bundles Installation"
+msgstr "Установить Premmerce Woocommerce Product Bundle"
+
+#: src/Data/Tasks.php:594
+msgid "https://premmerce.com/premmerce-woocommerce-wholesale-pricing/"
+msgstr "https://www.imagecms.net/blog/plugins-premmerce/premmerce-woocommerce-wholesale-pricing/"
+
+#: src/Data/Tasks.php:589
+msgid "The Premmerce WooCommerce Wholesale Pricing is a plugin that allows you to add individual wholesale prices or other prices types for WooCommerce products for any customers’ roles."
+msgstr "Premmerce WooCommerce Wholesale Pricing - это плагин, который позволяет добавлять индивидуальные оптовые цены или другие типы цен для продуктов WooCommerce в зависимости от группы клиента."
+
+#: src/Data/Tasks.php:588
+msgid "Premmerce WooCommerce Wholesale Pricing Installation"
+msgstr "Установить Premmerce WooCommerce Wholesale Pricing"
+
+#: src/Data/Tasks.php:584
+msgid "https://premmerce.com/woocommerce-redirect-manager/"
+msgstr "https://www.imagecms.net/blog/plugins-premmerce/premmerce-woocommerce-redirect-manager/"
+
+#: src/Data/Tasks.php:580
+msgid "The Premmerce Redirect Manager enables you to create 301 and 302 redirects and to set up the automatic redirects for the deleted products in the WooCommerce store."
+msgstr "Premererce WooCommerce Redirect Manager позволяет создавать 301 и 302 переадресации и настраивать автоматические переадресации для удаленных продуктов в магазине WooCommerce."
+
+#: src/Data/Tasks.php:579
+msgid "Premmerce WooCommerce Redirect Manager Installation"
+msgstr "Установить WooCommerce Redirect Manager"
+
+#: src/Data/Tasks.php:575
+msgid "https://premmerce.com/woocommerce-wishlist/"
+msgstr "https://www.imagecms.net/blog/plugins-premmerce/premmerce-woocommerce-wishlist"
+
+#: src/Data/Tasks.php:570
+msgid "This plugin provides the possibility for your customers to create wishlists with the further possibility to share them with friends."
+msgstr "Этот плагин предоставляет возможность для ваших клиентов создавать списки желаний с дальнейшей возможностью поделиться ими с друзьями."
+
+#: src/Data/Tasks.php:569
+msgid "Premmerce WooCommerce Wishlist Installation"
+msgstr "Установить Premmerce WooCommerce Wishlist"
+
+#. Author of the plugin/theme
+msgid "premmerce"
+msgstr "premmerce"
+
+#. Description of the plugin/theme
+msgid "Premmerce is a must-have toolkit for WooCommerce with a detailed Setup Wizard for your store."
+msgstr "Premmerce это сборник необходимых возможностей и плагинов для русскоязычного магазина на базе WooCommerce"
+
+#. #-#-#-#-#  premmerce-code.pot (Premmerce 1.2.1)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#: src/Admin/Handlers/PremiumHandler.php:75
+msgid "https://premmerce.com/premmerce-main-plugin-woocommerce-plugins-bundle/"
+msgstr "https://www.imagecms.net/blog/rukovodstva/nastroika-woocommerce-poshagovoe-rukovodstvo"
+
+#: views/admin/tabs/wizard.php:197
+msgid "Show all"
+msgstr "Показать все"
+
+#: views/admin/tabs/wizard.php:194
+msgid "There are no tasks"
+msgstr "Нет задач"
+
+#: views/admin/tabs/wizard.php:173
+msgid "Unskip"
+msgstr "Отменить"
+
+#: views/admin/tabs/wizard.php:168
+msgid "Skip"
+msgstr "Пропустить"
+
+#: views/admin/tabs/wizard.php:128
+msgid "Premium only"
+msgstr "Только Premium"
+
+#: views/admin/tabs/wizard.php:9
+msgid "All"
+msgstr "Все"
+
+#: views/admin/tabs/wizard.php:8
+msgid "Skipped"
+msgstr "Пропущенные"
+
+#: views/admin/tabs/wizard.php:7
+msgid "Completed"
+msgstr "Завершенные"
+
+#: views/admin/tabs/plugins.php:23 views/admin/tabs/plugins.php:53
+msgid "Active"
+msgstr "Активный"
+
+#: views/admin/tabs/plugins.php:20
+msgid "Installed version"
+msgstr "Установленная версия"
+
+#: views/admin/tabs/plugins.php:17
+msgid "Plugin"
+msgstr "Плагин"
+
+#: src/Data/Tasks.php:711
+msgid "Set up Multicarrency with WooCommerce Currency switcher"
+msgstr "Настроить мультивалютность от WooCommerce Currency switcher"
+
+#: src/Data/Tasks.php:705
+msgid "Install WooCommerce Currency switcher"
+msgstr "Установить WooCommerce Currency switcher"
+
+#: src/Data/Tasks.php:696
+msgid "If your store uses more than one currency for your customers, you can install the additional currency with these settings."
+msgstr "Если ваш интернет-магазин использует несколько валют и вы хотите предоставить пользователям возможность выбрать валюту, тогда устанавливайте данный плагин."
+
+#: src/Data/Tasks.php:695
+msgid "Set up Multicarrency with WPML"
+msgstr "Установить мультивалютность от WPML"
+
+#: src/Data/Tasks.php:676
+msgid "Before installing the WPML license key, you must request your support team the instructions and they will generate them for you."
+msgstr "Перед установкой лицензионного ключа WPML вы должны написать в нашу службу поддержки, чтобы мы создали его для вас."
+
+#: src/Data/Tasks.php:675
+msgid "Install WPML license key"
+msgstr "Установить WPML license key"
+
+#: src/Data/Tasks.php:670
+msgid "This plugin gives you the  possibility to translete your WordPress site to different languages and make you store multilingual."
+msgstr "Этот плагин даст вам возможность перевести ваш интернет-магазин на разные языки."
+
+#: src/Data/Tasks.php:669
+msgid "Install WPML Multilingual CMS"
+msgstr "Установить WPML Multilingual CMS"
+
+#: src/Data/Tasks.php:665
+msgid "This plugin gives you the possibility to export all necessary  data from your store on WooCommerce with a lot of settings and export formats."
+msgstr "Этот плагин дает вам возможность экспортировать все данные из вашего магазина в WooCommerce с большим количеством настроек и форматов экспорта."
+
+#: src/Data/Tasks.php:664
+msgid "Install WP Export"
+msgstr "Установить WP Export"
+
+#: src/Data/Tasks.php:659
+msgid "This addon gives you the possibility to import all necessary data to your WooCommerce Store."
+msgstr "Это необходимое дополнение, которое дает вам возможность импортировать все необходимые данные в ваш магазин WooCommerce."
+
+#: src/Data/Tasks.php:658
+msgid "Install WP Import for WooCommerce"
+msgstr "Установить WP Import for WooCommerce"
+
+#: src/Data/Tasks.php:654
+msgid "With this plugin you will be able to import data to your store in a much more simple way with a lot of new possibilities."
+msgstr "С помощью этого плагина вы сможете импортировать данные в свой магазин гораздо более простым способом с множеством новых возможностей."
+
+#: src/Data/Tasks.php:653
+msgid "Install WP Import"
+msgstr "Установить WP Import"
+
+#: src/Data/Tasks.php:649
+msgid "This feature will install the cache system based on WP Rocket on your store and setup the best settings to improve total speed of your WooCommerce store"
+msgstr "Данная возможность установит на ваш магазин основанную на технологиях WP Rocket и Premmerce уникальную систему кеширования, которая значительно повысит производительность вашего интернет-магазина."
+
+#: src/Data/Tasks.php:648
+msgid "Install and Setup Cache"
+msgstr "Установить и настроить кеш"
+
+#: src/Data/Tasks.php:633
+msgid "This feature will change you current WordPress interface to the new more convenient e-commerce view"
+msgstr "Данная возможность позволит вам использовать более приспособленное для управления интернет-магазином меню. Если оно вам не понравится, вы всегда сможете его отключить."
+
+#: src/Data/Tasks.php:632
+msgid "Install and Customize E-commerce Interface"
+msgstr "Изменить стандартное админ меню WordPress на E-commerce меню"
+
+#: src/Data/Tasks.php:622
+msgid "https://wordpress.org/plugins/premmerce/#reviews"
+msgstr "https://wordpress.org/plugins/premmerce/#reviews"
+
+#: src/Data/Tasks.php:621
+msgid "Rate Us"
+msgstr "Оцените нас"
+
+#: src/Data/Tasks.php:618
+msgid "If you like our wizard and it has really helped you to make a full store setup, please rate us on WordPress.org directory"
+msgstr "Если вам понравилась наша сборка и мастер установки, пожалуйста, поддержите нас и поставьте рейтинг на WordPress.org"
+
+#: src/Data/Tasks.php:617
+msgid "Please Rate Us"
+msgstr "Пожалуйста, оцените наш плагин"
+
+#: src/Data/Tasks.php:565
+msgid "https://premmerce.com/wordpress-custom-user-roles/"
+msgstr "https://www.imagecms.net/blog/plugins-premmerce/premmerce-user-roles"
+
+#: src/Data/Tasks.php:561
+msgid "The Premmerce User Roles Plugin would help you to create the new groups of users  in a way that best suits your business model."
+msgstr "Premmerce User Roles поможет вам создать новые группы пользователей для собственных целей."
+
+#: src/Data/Tasks.php:560
+msgid "Premmerce User Roles Plugin Installation"
+msgstr "Установить Premmerce User Roles"
+
+#: src/Data/Tasks.php:556
+msgid "https://premmerce.com/woocommerce-customers-manager/"
+msgstr "https://www.imagecms.net/blog/plugins-premmerce/woocommerce-customers-manager"
+
+#: src/Data/Tasks.php:551
+msgid "This plugin contributes to the informative aspect of customer management, such filtering users by the registration date, the amount of money spent in the store, displays the order history on the customer page."
+msgstr "Этот плагин улучшает информативную часть управления покупателями. А именно: добавляет фильтрацию покупателей по дате регистрации и по количеству потраченных средств, добавляет отображение количества потраченных средств и список заказов на карточке пользователя."
+
+#: src/Data/Tasks.php:550
+msgid "WooCommerce Customers Manager Installation"
+msgstr "Установить WooCommerce Customers Manager"
+
+#: src/Data/Tasks.php:546
+msgid "https://premmerce.com/woocommerce-product-filter/#integration"
+msgstr "https://www.imagecms.net/blog/plugins-premmerce/premmerce-woocommerce-product-filter/#integration"
+
+#: src/Data/Tasks.php:538
+msgid "Set brands to display on Attribute tab on the WooCommerce filter and then set to display all brands that you need on your store filter."
+msgstr "Укажите все бренды, которые вы хотите видеть в фильтре на вкладке Бренды в плагине WooCommerce filter"
+
+#: src/Data/Tasks.php:537
+msgid "Display Brands on Product Filter"
+msgstr "Отобразить бренды в фильтре"
+
+#: src/Data/Tasks.php:533
+msgid "https://premmerce.com/premmerce-woocommerce-brands-free-plugin/"
+msgstr "https://www.imagecms.net/blog/plugins-premmerce/premmerce-woocommerce-brands"
+
+#: src/Data/Tasks.php:528
+msgid "This plugin is highly convenient if your products' using different brands, so it will improve your site usability and product search."
+msgstr "Этот плагин очень удобен, если ваши продукты используют разные бренды. В этом случае он улучшит удобство использования вашего сайта и поиск продукта."
+
+#: src/Data/Tasks.php:527
+msgid "Premmerce WooCommerce Brands Installation"
+msgstr "Установить Premmerce WooCommerce Brands"
+
+#: src/Data/Tasks.php:523
+msgid "https://premmerce.com/woocommerce-product-filter/#displaying"
+msgstr "https://www.imagecms.net/blog/plugins-premmerce/premmerce-woocommerce-product-filter/#displaying"
+
+#: src/Data/Tasks.php:515
+msgid "The filter for all product attributes, which can be selected in the settings, is added to the store page with the help of  Premmerce Filter widget. It is displayed as a regular WordPress widget via the Widgets page in the admin menu."
+msgstr "Для того, чтобы фильтр отобразился на странциах вашего интернет-магазина, необходимо разместить виджет в нужный сайдбар."
+
+#: src/Data/Tasks.php:514
+msgid "Add Premmerce Filter Widget to Sidebar"
+msgstr "Добавьте виджет от Premmerce Filter в Сайдбар"
+
+#: src/Data/Tasks.php:510
+msgid "https://premmerce.com/woocommerce-product-filter/#managing"
+msgstr "https://www.imagecms.net/blog/plugins-premmerce/premmerce-woocommerce-product-filter/#managing"
+
+#: src/Data/Tasks.php:502
+msgid "Manage Premmerce WooCommerce Product Filter Setting and set to display all attributes, you need to show in filter."
+msgstr "В настройках Premmerce WooCommerce Product Filter отметьте \"показать\" на всех атрибутах, которые вы хотите видеть во время фильтрации."
+
+#: src/Data/Tasks.php:501
+msgid "Make all you need to make filters visible"
+msgstr "Сделайте все необходимые данные для фильтрации видимыми"
+
+#: src/Data/Tasks.php:497
+msgid "https://premmerce.com/woocommerce-product-filter/"
+msgstr "https://www.imagecms.net/blog/plugins-premmerce/premmerce-woocommerce-product-filter"
+
+#: src/Data/Tasks.php:492
+msgid "This plugin upgrades the standart WooCommerce filtering to a new level  and adds some new options such as search results filtering, etc. "
+msgstr "Данный плагин значительно улучшает стандартные возможности для фильтрации WooCommerce и добавляет новые возможности - такие как фильтрации результатов поиска и другие."
+
+#: src/Data/Tasks.php:491
+msgid "Premmerce WooCommerce Product Filter Installation"
+msgstr "Установить Premmerce WooCommerce Product Filter"
+
+#: src/Data/Tasks.php:487
+msgid "https://premmerce.com/woocommerce-product-search/#settings"
+msgstr "https://www.imagecms.net/blog/plugins-premmerce/premmerce-woocommerce-product-search/#settings"
+
+#: src/Data/Tasks.php:483
+msgid "Update"
+msgstr "Обновить"
+
+#: src/Data/Tasks.php:479
+msgid "We recommend that you update the indexes after any products list changes to improve search results."
+msgstr "Мы рекомендуем вам обновлять индексы после любых изменений в каталоге продуктов, чтобы улучшить результаты поиска."
+
+#: src/Data/Tasks.php:478
+msgid "Update Premmerce Search Indexes"
+msgstr "Обновить индексы Premmerce Search"
+
+#: src/Data/Tasks.php:474
+msgid "https://premmerce.com/woocommerce-product-search/"
+msgstr "https://www.imagecms.net/blog/plugins-premmerce/premmerce-woocommerce-product-search"
+
+#: src/Data/Tasks.php:469
+msgid "This plugin performs two functions at a time: it replaces  the standart WooCommerce search for the Live Search  and searches for the items which have been misspelled."
+msgstr "Данный плагин решает сразу две проблемы: Заменяет обычный WooCommerce поиск на Live Search, Ищет с учетом потенциально введенных ошибок пользователями"
+
+#: src/Data/Tasks.php:468
+msgid "Premmerce Search Installation"
+msgstr "Установить Premmerce Search"
+
+#: src/Data/Tasks.php:464
+msgid "https://premmerce.com/complete-woocommerce-tutorial-step-step/#products"
+msgstr "https://www.imagecms.net/blog/rukovodstva/nastroika-woocommerce-poshagovoe-rukovodstvo/#products"
+
+#: src/Data/Tasks.php:456
+msgid "The store products are managed from the Product page. If you are using the sample  data - it's time to delete it and add your own products."
+msgstr "Продукты магазина управляются на странице Продукты. Если вы используете демо-данные - пришло время удалить их и добавить свои собственные продукты."
+
+#: src/Data/Tasks.php:455
+msgid "Adding products and deleting the sample data"
+msgstr "Добавление товаров и удаление тестовых данных"
+
+#: src/Data/Tasks.php:451
+msgid "https://premmerce.com/complete-woocommerce-tutorial-step-step/#product_att"
+msgstr "https://www.imagecms.net/blog/rukovodstva/nastroika-woocommerce-poshagovoe-rukovodstvo#product_att"
+
+#: src/Data/Tasks.php:443
+msgid "Product attributes are needed for the flexible filtering and extended search of products by the set attributes."
+msgstr "Атрибуты товаров нужны в первую очередь для того, чтобы использовать гибкую фильтрацию и поиск товаров по этим атрибутам."
+
+#: src/Data/Tasks.php:442
+msgid "Creating the product attributes"
+msgstr "Создание атрибутов товаров"
+
+#: src/Data/Tasks.php:438
+msgid "https://premmerce.com/complete-woocommerce-tutorial-step-step/#product_categories"
+msgstr "https://www.imagecms.net/blog/rukovodstva/nastroika-woocommerce-poshagovoe-rukovodstvo#product_categories"
+
+#: src/Data/Tasks.php:430
+msgid "It's recommended that you add all necessary categories for a better catalog navigation."
+msgstr "Прежде всего стоит добавить все необходимые категории, в которые вы будете добавлять свои продукты для лучшей навигации по каталогу."
+
+#: src/Data/Tasks.php:429
+msgid "Creating the necessary product categories"
+msgstr "Создать необходимые категории товаров"
+
+#: src/Data/Tasks.php:425
+msgid "https://premmerce.com/complete-woocommerce-tutorial-step-step/#contact"
+msgstr "https://www.imagecms.net/blog/rukovodstva/nastroika-woocommerce-poshagovoe-rukovodstvo#contact"
+
+#: src/Data/Tasks.php:417
+msgid "You can add Contact Form 7 shortcode to any page you need, but we recommend that you use it  for Contact Page, that you have created earlier."
+msgstr "После этого форма обратной связи заработает на странице контактов"
+
+#: src/Data/Tasks.php:416
+msgid "Placement of the Contact Form 7 shortcode on the Contact page."
+msgstr "Вставить шорткод от Contact Form 7 на страницу контактов"
+
+#: src/Data/Tasks.php:412
+msgid "It's used to display the online feedback form on the Contact page."
+msgstr "Для отображения интерактивной формы обратной связи на странице контактов"
+
+#: src/Data/Tasks.php:411
+msgid "Contact Form 7 Installation"
+msgstr "Установить Contact Form 7 "
+
+#: src/Data/Tasks.php:407
+msgid "https://premmerce.com/complete-woocommerce-tutorial-step-step/#other_pages_settings"
+msgstr "https://www.imagecms.net/blog/rukovodstva/nastroika-woocommerce-poshagovoe-rukovodstvo#other_pages_settings"
+
+#: src/Data/Tasks.php:399
+msgid "Add NoIndex to this pages with the help of Yoast SEO, bacause they don't need indexation."
+msgstr "Настроить данные страницы с помощью Yoast SEO, их не нужно индексировать"
+
+#: src/Data/Tasks.php:398
+msgid "NoIndex on Cart, Checkout, My Account  pages"
+msgstr "Поставить NoIndex на страницах Cart, Checkout, My account"
+
+#: src/Data/Tasks.php:394
+msgid "https://premmerce.com/complete-woocommerce-tutorial-step-step/#shop_page"
+msgstr "https://www.imagecms.net/blog/rukovodstva/nastroika-woocommerce-poshagovoe-rukovodstvo#shop_page"
+
+#: src/Data/Tasks.php:386
+msgid "Make all SEO settings for the Shop Page with the help of Yoast SEO Meta Tags or adjust the canonical URL to the home page."
+msgstr "Настраиваем с помощью Yoast SEO Meta Tags или ставим canonical на главную при необходимости"
+
+#: src/Data/Tasks.php:385
+msgid "Shop Page SEO Settings"
+msgstr "Настройка Shop - Shop Page"
+
+#: src/Data/Tasks.php:381
+msgid "https://premmerce.com/complete-woocommerce-tutorial-step-step/#front_page"
+msgstr "https://www.imagecms.net/blog/rukovodstva/nastroika-woocommerce-poshagovoe-rukovodstvo#front_page"
+
+#: src/Data/Tasks.php:373
+msgid "Make all SEO settings for the Front Page (Homepage) with the help of Yoast SEO Meta Tags and change description if you need it."
+msgstr "Настраиваем Welcome - Front Page, особое внимание обращаем настройке Yoast SEO Meta Tags"
+
+#: src/Data/Tasks.php:372
+msgid "The Homepage settings"
+msgstr "Настроить главную страницу"
+
+#: src/Data/Tasks.php:364
+msgid "Create a new menu with the menu points that your store needed and then assign it to one of the menu location that your theme supports."
+msgstr "Пересмотреть основные пункты каждого созданного меню и при необходимости изменить или дополнить"
+
+#: src/Data/Tasks.php:363
+msgid "The basic menu settings"
+msgstr "Настроить основные меню сайта"
+
+#: src/Data/Tasks.php:359
+msgid "https://premmerce.com/complete-woocommerce-tutorial-step-step/#customizer"
+msgstr "https://www.imagecms.net/blog/rukovodstva/nastroika-woocommerce-poshagovoe-rukovodstvo#customizer"
+
+#: src/Data/Tasks.php:355
+msgid "Customize"
+msgstr "Настроить"
+
+#: src/Data/Tasks.php:352
+msgid "Customise the selected theme to your needs"
+msgstr "Кастомизировать выбранную тему оформления под свой стиль"
+
+#: src/Data/Tasks.php:351
+msgid "Customise all elements of your store by using the customiser."
+msgstr "Провести детальную кастомизацию выбранной темы с помощью кастомайзера"
+
+#: src/Data/Tasks.php:347
+msgid "https://premmerce.com/complete-woocommerce-tutorial-step-step/#install_theme"
+msgstr "https://www.imagecms.net/blog/rukovodstva/nastroika-woocommerce-poshagovoe-rukovodstvo#install_theme"
+
+#: src/Data/Tasks.php:343
+msgid "Select"
+msgstr "Выбрать"
+
+#: src/Data/Tasks.php:340
+msgid "Select a new theme or use Storefront by default. "
+msgstr "Проводим поиск новой темы оформления или оставляем стандартную StoreFront"
+
+#: src/Data/Tasks.php:339
+msgid "Selecting and setting up a theme"
+msgstr "Выбрать и установить тему оформления"
+
+#: src/Data/Tasks.php:335
+msgid "https://premmerce.com/woocommerce-google-analytics-integration-plugins/#woocommerce"
+msgstr "https://www.imagecms.net/blog/rukovodstva/nastroika-google-analytics-woocommerce#woocommerce"
+
+#: src/Data/Tasks.php:327
+msgid "Enter your Google Analytics ID, Enable Standard Tracking - uncheck, \"Display Advertising\" Support - uncheck, Use Enhanced Link Attribution - uncheck, Enable Universal Analytics - check, Anonymize IP addresses - check, Track 404 (Not found) Errors - check,  Purchase Transactions - check, Add to Cart Events - check, Enable Enhanced eCommerce - check and all other checkboxes, that appered after Enable Enhanced eCommerce - check too."
+msgstr "Внести свой Google Analytics ID, Enable Universal Analytics - отметить, Purchase Transactions - отметить, Add to Cart Events - отметить, Enable Enhanced eCommerce - отметить"
+
+#: src/Data/Tasks.php:326
+msgid "WooCommerce Google Analytics Integration Plugin settings"
+msgstr "Настройка WooCommerce Google Analytics Integration"
+
+#: src/Data/Tasks.php:322
+msgid "https://premmerce.com/woocommerce-google-analytics-integration-plugins/#enhanced"
+msgstr "https://www.imagecms.net/blog/rukovodstva/nastroika-google-analytics-woocommerce#enhanced"
+
+#: src/Data/Tasks.php:318
+msgid "Enable"
+msgstr "Включить"
+
+#: src/Data/Tasks.php:314
+msgid "Go to Integration Tab and select in the \"Ecommerce Tracking\" field \"Enhanced Ecommerce Plugin\" option."
+msgstr "На вкладке Integration необходимо выбрать в поле \"Ecommerce Tracking\" значение \"Enhanced Ecommerce Plugin\"."
+
+#: src/Data/Tasks.php:313
+msgid "Enabling  the Ecommerce Tracking: Enhanced Ecommerce Plugin"
+msgstr "Включите Ecommerce Tracking: Enhanced Ecommerce Plugin"
+
+#: src/Data/Tasks.php:309
+msgid "https://premmerce.com/woocommerce-google-analytics-integration-plugins/#gadwp"
+msgstr "https://www.imagecms.net/blog/rukovodstva/nastroika-google-analytics-woocommerce#gadwp"
+
+#: src/Data/Tasks.php:301
+msgid "Get authozised in order to use all pluging settings available."
+msgstr "Авторизируйтесь, чтобы использовать все доступные возможности плагина."
+
+#: src/Data/Tasks.php:300
+msgid "Authorising the Google Analytics Dashboard for WP"
+msgstr "Авторизируйте Google Analytics Dashboard for WP"
+
+#: src/Data/Tasks.php:296
+msgid "https://premmerce.com/woocommerce-google-analytics-integration-plugins/#google_settings"
+msgstr "https://www.imagecms.net/blog/rukovodstva/nastroika-google-analytics-woocommerce#google_settings"
+
+#: src/Data/Tasks.php:292
+msgid "Get registered in Google Analytics and make all the necessary settings in your Google Analytics Account."
+msgstr "Войдите в Google Analytics и внесите все необходимые настройки в свою учетную запись Google Analytics."
+
+#: src/Data/Tasks.php:291
+msgid "The Google Analytics Account settings"
+msgstr "Настройки аккаунта Google Analytics"
+
+#: src/Data/Tasks.php:287
+msgid "https://premmerce.com/complete-woocommerce-tutorial-step-step/#seo_addon"
+msgstr "https://www.imagecms.net/blog/rukovodstva/nastroika-woocommerce-poshagovoe-rukovodstvo#seo_addon"
+
+#: src/Data/Tasks.php:279
+msgid "Adjust the following fields: Brand, Address, Email, Phone, Opening hours, Payment Accepted"
+msgstr "Заполните следующие поля: Бренд, Адрес, Почта, Телефон, Часы работы, Способы оплаты"
+
+#: src/Data/Tasks.php:278
+msgid "The WooCommerce SEO Addon settings"
+msgstr "Настройки WooCommerce SEO Addon"
+
+#: src/Data/Tasks.php:269
+msgid "There's an option to authorise Yoast SEO and your Google Webmaster console. After authorization the information about all pages 404 would be displayed on this page."
+msgstr "Существует возможность авторизации Yoast SEO и консоли Google для веб-мастеров. После авторизации информация обо всех страницах 404 будет отображаться на этой странице."
+
+#: src/Data/Tasks.php:268
+msgid "The Yoast Search Console Authorization"
+msgstr "Настроить консоль поиска - Yoast SEO"
+
+#: src/Data/Tasks.php:264
+msgid "https://premmerce.com/complete-woocommerce-tutorial-step-step/#social_page"
+msgstr "https://www.imagecms.net/blog/rukovodstva/nastroika-woocommerce-poshagovoe-rukovodstvo#social_page"
+
+#: src/Data/Tasks.php:256
+msgid "On the Accounts tab fill in all information about all social networks that are used by the store."
+msgstr "На вкладке «Аккаунты» заполните всю информацию обо всех социальных сетях, которые используются магазином."
+
+#: src/Data/Tasks.php:255
+msgid "The Social page settings"
+msgstr "Настройки страницы Социальные сети"
+
+#: src/Data/Tasks.php:251
+msgid "https://premmerce.com/complete-woocommerce-tutorial-step-step/#webmaster_tools"
+msgstr "https://www.imagecms.net/blog/rukovodstva/nastroika-woocommerce-poshagovoe-rukovodstvo#webmaster_tools"
+
+#: src/Data/Tasks.php:243
+msgid "It's important to set Google Webmaster Tools, Yandex and  Bing if they are used"
+msgstr "Важно настроить на этой вкладке инструменты Google для веб-мастеров, Yandex и Bing, если они используются."
+
+#: src/Data/Tasks.php:242
+msgid "Adding the information to Google Webmaster Tools"
+msgstr "Заполняем инструменты для веб-мастеров"
+
+#: src/Data/Tasks.php:238
+msgid "https://premmerce.com/complete-woocommerce-tutorial-step-step/#fill_company_info"
+msgstr "https://www.imagecms.net/blog/rukovodstva/nastroika-woocommerce-poshagovoe-rukovodstvo#fill_company_info"
+
+#: src/Data/Tasks.php:230
+msgid "Adjust the following fields: Website Name, Alternate Name. In the select field \"Company or Person\" - select Company and then adjust fields: Company name, Company logo"
+msgstr "Заполните следующие поля: Название сайта, Альтернативное название. В поле «Компания или частное лицо» выберите компания, а затем измените поля: название компании, логотип компании"
+
+#: src/Data/Tasks.php:229
+msgid "Filling in the Company info field"
+msgstr "Заполните вкладку Информация о вас"
+
+#: src/Data/Tasks.php:225
+msgid "https://premmerce.com/complete-woocommerce-tutorial-step-step/#toggle_yoast"
+msgstr "https://www.imagecms.net/blog/rukovodstva/nastroika-woocommerce-poshagovoe-rukovodstvo#toggle_yoast"
+
+#: src/Data/Tasks.php:217
+msgid "This is required to get access to all Yoast settings"
+msgstr "Это необходимо для доступа ко всем настройкам Yoast"
+
+#: src/Data/Tasks.php:216
+msgid "Toggle the Advanced Settings Pages switch for Yoast SEO"
+msgstr "Включите Дополнительные настройки страницы для Yoast SEO"
+
+#: src/Data/Tasks.php:212
+msgid "https://premmerce.com/complete-woocommerce-tutorial-step-step/#emails_tab"
+msgstr "https://www.imagecms.net/blog/rukovodstva/nastroika-woocommerce-poshagovoe-rukovodstvo#emails_tab"
+
+#: src/Data/Tasks.php:204
+msgid "Adjust the following fields:  \"From\" name, \"From\" address, Header image, Footer text."
+msgstr "Заполните следующие поля: «Имя \"От кого\"», «Адрес отправителя», «Изображение заголовка», «Текст подвала»"
+
+#: src/Data/Tasks.php:203
+msgid "The Emails Tab Settings"
+msgstr "Настройка вкладки Emails"
+
+#: src/Data/Tasks.php:199
+msgid "https://docs.woocommerce.com/documentation/plugins/woocommerce/getting-started/sell-products/core-payment-options/"
+msgstr "https://docs.woocommerce.com/documentation/plugins/woocommerce/getting-started/sell-products/core-payment-options/"
+
+#: src/Data/Tasks.php:191
+msgid "Here you can setup your checkout process and select all payment options that would be used in the store."
+msgstr "Здесь вы можете настроить процесс оформления заказа и выбрать все варианты оплаты, которые будут использоваться в магазине."
+
+#: src/Data/Tasks.php:190
+msgid "The Checkout Tab Settings"
+msgstr "Настройка вкладки Платежи"
+
+#: src/Data/Tasks.php:186
+msgid "https://premmerce.com/woocommerce-shipping-guide-zones-classes-calculator-labels/"
+msgstr "https://www.imagecms.net/blog/rukovodstva/nastroika-dostavki-woocommerce"
+
+#: src/Data/Tasks.php:178
+msgid "On this tab you can make shipping options  and shipping zones settings."
+msgstr "На этой вкладке вы можете настроить параметры доставки и настроить зоны доставки."
+
+#: src/Data/Tasks.php:177
+msgid "The Shipping Tab Settings"
+msgstr "Настройка вкладки Shipping"
+
+#: src/Data/Tasks.php:173
+msgid "https://premmerce.com/complete-woocommerce-tutorial-step-step/#geoip"
+msgstr "https://www.imagecms.net/blog/rukovodstva/nastroika-woocommerce-poshagovoe-rukovodstvo#geoip"
+
+#: src/Data/Tasks.php:170
+msgid "http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz"
+msgstr "http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz"
+
+#: src/Data/Tasks.php:169
+msgid "Download"
+msgstr "Загрузить"
+
+#: src/Data/Tasks.php:166
+msgid "You can download and install the MaxMind GeoIP Database manually from http://dev.maxmind.com/geoip/legacy/geolite/ to the path: /wp-content/uploads/GeoIP.dat. Scroll down to \"Downloads\" and download the \"Binary / gzip\" file next to \"GeoLite Country\". Please remember to uncompress GeoIP.dat.gz and upload the GeoIP.dat file only."
+msgstr "Вы можете загрузить и установить базу данных MaxMind GeoIP вручную с http://dev.maxmind.com/geoip/legacy/geolite/ в директорию: /wp-content/uploads/GeoIP.dat. Прокрутите страницу вниз до «Загрузки» и загрузите файл «Binary / gzip» рядом с «GeoLite Country». Не забудьте распаковывать файл GeoIP.dat.gz и загрузить только файл GeoIP.dat."
+
+#: src/Data/Tasks.php:165
+msgid "Geolocation Settings"
+msgstr "Настройки геолокации"
+
+#: src/Data/Tasks.php:161
+msgid "https://premmerce.com/complete-woocommerce-tutorial-step-step/#basic_woocommerce_settings"
+msgstr "https://www.imagecms.net/blog/rukovodstva/nastroika-woocommerce-poshagovoe-rukovodstvo#basic_woocommerce_settings"
+
+#: src/Data/Tasks.php:153
+msgid "Adjust the following fields: Address line 1, Address line 2, City, Country / State, Postcode / ZIP, Currency and Check Enable taxes(Only if your store will use automatic tax calculations)."
+msgstr "Заполнить следующие поля: Строка адреса 1, Строка адреса 2, Город, Страна / Область,  Почтовый индекс, Валюта"
+
+#: src/Data/Tasks.php:152
+msgid "WooCommerce Basic Settings"
+msgstr "Основные настройки WooCommerce"
+
+#: src/Data/Tasks.php:140
+msgid "We recommend that you remove the unnecessary slag from your store’s URL and make it more concise and readable. To do this you need to adjust the following settings in Permaink Manager: select \"Remove base\"(from the category), \"Remove base\"(from the product) and leave Remove parent slugs without changes."
+msgstr "Мы рекомендуем настроить отображение постоянных ссылок так, чтобы они были чистыми дополнительного Slugа, который добавляет WooCommerce. Оптимальные настройки: выбрать Не показывать префикс (для категории), Не показывать префикс (для товара)."
+
+#: src/Data/Tasks.php:139
+msgid "Permalinks Settings"
+msgstr "Настройки постоянных ссылок"
+
+#: src/Data/Tasks.php:135
+msgid "https://premmerce.com/complete-woocommerce-tutorial-step-step/#readsett"
+msgstr "https://www.imagecms.net/blog/rukovodstva/nastroika-woocommerce-poshagovoe-rukovodstvo#readsett"
+
+#: src/Data/Tasks.php:128
+msgid "Change the displayed by default  \"Your Latest Posts\" to a more easy-to-use setting \" A Static Page\" and select the default pages created earlier."
+msgstr "Измените отображаемый по умолчанию «Ваши последние записи» на более простой в использовании параметр «Статическая страница» и выберите страницу по умолчанию, которую вы создали ранее."
+
+#: src/Data/Tasks.php:127
+msgid "Reading Settings"
+msgstr "Настройки чтения"
+
+#: src/Data/Tasks.php:123
+msgid "https://premmerce.com/complete-woocommerce-tutorial-step-step/#basic_wordpress_settings"
+msgstr "https://www.imagecms.net/blog/rukovodstva/nastroika-woocommerce-poshagovoe-rukovodstvo#basic_wordpress_settings"
+
+#: src/Data/Tasks.php:119 src/Data/Tasks.php:131 src/Data/Tasks.php:144
+#: src/Data/Tasks.php:157 src/Data/Tasks.php:182 src/Data/Tasks.php:195
+#: src/Data/Tasks.php:208 src/Data/Tasks.php:221 src/Data/Tasks.php:234
+#: src/Data/Tasks.php:247 src/Data/Tasks.php:260 src/Data/Tasks.php:273
+#: src/Data/Tasks.php:283 src/Data/Tasks.php:305 src/Data/Tasks.php:331
+#: src/Data/Tasks.php:367 src/Data/Tasks.php:377 src/Data/Tasks.php:390
+#: src/Data/Tasks.php:403 src/Data/Tasks.php:421 src/Data/Tasks.php:506
+#: src/Data/Tasks.php:519 src/Data/Tasks.php:542 src/Data/Tasks.php:637
+#: src/Data/Tasks.php:700 src/Data/Tasks.php:716
+msgid "Set up"
+msgstr "Настроить"
+
+#: src/Data/Tasks.php:116
+msgid "Adjust the following fields: Site Title, Tagline, WordPress Address (URL), Site Address (URL), Email Address, Site Language, Timezone"
+msgstr "Заполните следующие поля: Название сайта, Краткое описание, Адрес WordPress (URL), Адрес сайта (URL), Адрес e-mail, Язык сайта, Часовой пояс"
+
+#: src/Data/Tasks.php:115
+msgid "WordPress Basic Settings"
+msgstr "Основные настройки WordPress"
+
+#: src/Data/Tasks.php:111
+msgid "We highly recommend you to buy the SSL certificate from your hosting provider or another SSL provider and then install it on your site for better SEO rankings and user experience."
+msgstr "Это значительно повлияет в дальнейшем на продвижение вашего магазина в поисковых системах, а также на доверие со стороны пользователей и, соответственно, конверсию."
+
+#: src/Data/Tasks.php:110
+msgid "SSL Certificate Purchase"
+msgstr "Покупка сертификата SSL"
+
+#: src/Data/Tasks.php:101
+msgid "Additional plugin for sending ecommerce data to Google Analytics account."
+msgstr "Дополнительный плагин для отправки данных электронной торговли в учетную запись Google Analytics."
+
+#: src/Data/Tasks.php:100
+msgid "WooCommerce Google Analytics Integration Plugin Installation"
+msgstr "Установка WooCommerce Google Analytics Integration "
+
+#: src/Data/Tasks.php:96 src/Data/Tasks.php:106
+msgid "https://premmerce.com/woocommerce-google-analytics-integration-plugins/"
+msgstr "https://www.imagecms.net/blog/rukovodstva/nastroika-google-analytics-woocommerce"
+
+#: src/Data/Tasks.php:92
+msgid "Basic Google Analytics settings and interactive widget for Dashboard."
+msgstr "Основные настройки Google Analytics и интерактивный виджет для Dashboard."
+
+#: src/Data/Tasks.php:91
+msgid "Google Analytics Dashboard Installation for WordPress"
+msgstr "Установка Google Analytics Dashboard"
+
+#: src/Data/Tasks.php:87
+msgid "https://premmerce.com/woocommerce-permalink-manager-remove-shop-product-product-category-url/"
+msgstr "https://www.imagecms.net/blog/plugins-premmerce/woocommerce-permalinks-manager"
+
+#: src/Data/Tasks.php:82
+msgid "This plugin is used for your store's URL settings fine-tuning."
+msgstr "Обязательный плагин, если вы переходите с другой платформы и хотите сохранить структуру URL, а также, если вы хотите забрать ненужный Slag с урл вашего магазина и сделать его более лаконичным и читабельным."
+
+#: src/Data/Tasks.php:81
+msgid "WooCommerce Permalink Manager Installation"
+msgstr "Установка WooCommerce Permalink Manager"
+
+#: src/Data/Tasks.php:77
+msgid "https://premmerce.com/woocommerce-seo-addon-yoast/"
+msgstr "https://www.imagecms.net/blog/plugins-premmerce/yoast-woocommerce-seo-addon"
+
+#: src/Data/Tasks.php:72
+msgid "This plugin provides additional SEO capabilities that are not available in the basic Yoast SEO."
+msgstr "Предоставляет дополнительные возможности для SEO, которых нет в базовом Yoast SEO"
+
+#: src/Data/Tasks.php:71
+msgid "WooCommerce SEO Addon Installation"
+msgstr "Установка WooCommerce SEO Addon"
+
+#: src/Data/Tasks.php:67
+msgid "Yoast SEO is an obligatory plugin if you want your store products to be easily found on the search engines by your customers."
+msgstr "Обязательный плагин, если вы хотите, чтобы ваши товары занимали высокие позиции в поисковых сетях."
+
+#: src/Data/Tasks.php:66
+msgid "Yoast SEO Installation"
+msgstr "Установка Yoast SEO"
+
+#: src/Data/Tasks.php:61
+msgid "For a better visualization set Storefront, the bulletproof theme created by the WordPress core developers."
+msgstr "Для лучшей визуализации установите Storefront, базовую тему, созданную разработчиками ядра WooCommerce."
+
+#: src/Data/Tasks.php:60
+msgid "Storefront, the basic WooCommerce theme installation"
+msgstr "Установка Storefront - базовая тема от WooCommerce"
+
+#: src/Data/Tasks.php:51
+msgid "In some cases if you skip the WooCommerce Onboarding Wizard, the essential default pages may not be created automatically. In order to create them, go to the Status section, select Create default WooCommerce pages on the Tools tab and click  Create."
+msgstr "В некоторых случаях, если вы пропустите мастер установки WooCommerce, основные страницы по умолчанию могут не создаться автоматически. Чтобы их создать , перейдите в раздел «Статус», вкладка «Инструменты» и нажмите «Создать» возле «Создать страницы WooCommerce по умолчанию»."
+
+#: src/Data/Tasks.php:50
+msgid "Creating the WooCommerce default pages"
+msgstr "Создание основных страниц для WooCommerce"
+
+#: src/Data/Tasks.php:46
+msgid "https://premmerce.com/complete-woocommerce-tutorial-step-step/#hpsett"
+msgstr "https://www.imagecms.net/blog/rukovodstva/nastroika-woocommerce-poshagovoe-rukovodstvo#hpsett"
+
+#: src/Data/Tasks.php:42 src/Data/Tasks.php:55 src/Data/Tasks.php:434
+#: src/Data/Tasks.php:447 src/Data/Tasks.php:460
+msgid "Create"
+msgstr "Создать"
+
+#: src/Data/Tasks.php:39
+msgid "In order to proceed with further interface settings, the Front Page, Blog and Contact pages have to be created."
+msgstr "Чтобы продолжить настройку всех возможностей, необходимо создать страницы Главная страница, Блог и Контакты."
+
+#: src/Data/Tasks.php:38
+msgid "Creating the basic default WordPress pages"
+msgstr "Создание основных страниц WordPress"
+
+#: src/Data/Tasks.php:34
+msgid "https://premmerce.com/complete-woocommerce-tutorial-step-step/#wooinstall"
+msgstr "https://www.imagecms.net/blog/rukovodstva/nastroika-woocommerce-poshagovoe-rukovodstvo#reading-progress-title-1"
+
+#: src/Data/Tasks.php:33 src/Data/Tasks.php:45 src/Data/Tasks.php:76
+#: src/Data/Tasks.php:86 src/Data/Tasks.php:95 src/Data/Tasks.php:105
+#: src/Data/Tasks.php:122 src/Data/Tasks.php:134 src/Data/Tasks.php:147
+#: src/Data/Tasks.php:160 src/Data/Tasks.php:172 src/Data/Tasks.php:185
+#: src/Data/Tasks.php:198 src/Data/Tasks.php:211 src/Data/Tasks.php:224
+#: src/Data/Tasks.php:237 src/Data/Tasks.php:250 src/Data/Tasks.php:263
+#: src/Data/Tasks.php:286 src/Data/Tasks.php:295 src/Data/Tasks.php:308
+#: src/Data/Tasks.php:321 src/Data/Tasks.php:334 src/Data/Tasks.php:346
+#: src/Data/Tasks.php:358 src/Data/Tasks.php:380 src/Data/Tasks.php:393
+#: src/Data/Tasks.php:406 src/Data/Tasks.php:424 src/Data/Tasks.php:437
+#: src/Data/Tasks.php:450 src/Data/Tasks.php:463 src/Data/Tasks.php:473
+#: src/Data/Tasks.php:486 src/Data/Tasks.php:496 src/Data/Tasks.php:509
+#: src/Data/Tasks.php:522 src/Data/Tasks.php:532 src/Data/Tasks.php:545
+#: src/Data/Tasks.php:555 src/Data/Tasks.php:564 src/Data/Tasks.php:574
+#: src/Data/Tasks.php:583 src/Data/Tasks.php:593 src/Data/Tasks.php:603
+msgid "Details"
+msgstr "Детали"
+
+#: src/Data/Tasks.php:30
+msgid "WooCommerce is a basic platform for your future store, one of the most popular on the web. After activation WooCommerce will suggest using the WooCommerce Onboarding Wizard which you can either use or skip and continue settings with the Premmerce Setup Wizard."
+msgstr "WooCommerce - это базовая платформа для вашего будущего магазина, одна из самых популярных в Интернете. После активации, WooCommerce предложит использовать свой Мастер Установки, который мы рекомендуем пропустить и продолжить настройки с помощью мастера настройки Premmerce."
+
+#: src/Data/Tasks.php:29
+msgid "WooCommerce Installation"
+msgstr "Установка WooCommerce"
+
+#: src/Api/WizardApi.php:271 src/Api/WizardApi.php:295
+#: views/admin/tabs/plugins.php:49
+msgid "Activate"
+msgstr "Активировать"
+
+#: src/Api/WizardApi.php:261 src/Api/WizardApi.php:286 src/Data/Tasks.php:680
+#: src/Data/Tasks.php:690 views/admin/tabs/plugins.php:44
+msgid "Install"
+msgstr "Установить"
+
+#: src/Admin/Handlers/ToolbarHandler.php:53 views/admin/tabs/wizard.php:6
+msgid "Incomplete"
+msgstr "В работе"
+
+#: src/Admin/Handlers/PremiumHandler.php:146
+msgid "Plugin activation failed."
+msgstr "Не удалось установить плагин."
+
+#: src/Admin/Handlers/PremiumHandler.php:88
+msgid "WordPress Documentation"
+msgstr "Документация WordPress"
+
+#: src/Admin/Handlers/PremiumHandler.php:73
+msgid "Premmerce Documentation"
+msgstr "Руководство по настройке"
+
+#. #-#-#-#-#  premmerce-code.pot (Premmerce 1.2.1)  #-#-#-#-#
+#. Author URI of the plugin/theme
+#: src/Admin/Handlers/PremiumHandler.php:68
+msgid "https://premmerce.com"
+msgstr "https://imagecms.net"
+
+#: src/Admin/Handlers/PremiumHandler.php:66
+msgid "Premmerce.com"
+msgstr "Imagecms.net"
+
+#: src/Admin/Handlers/PluginsHandler.php:59
+msgid "Plugin installation failed."
+msgstr "Не удалось установить плагин."
+
+#: src/Admin/Handlers/ToolbarHandler.php:65
+msgid "Support"
+msgstr "Поддержка"
+
+#: src/Admin/Admin.php:126 src/Admin/Handlers/ToolbarHandler.php:59
+msgid "Plugins"
+msgstr "Плагины"
+
+#: src/Admin/Admin.php:125
+msgid "Wizard"
+msgstr "Мастер установки"
+
+#. #-#-#-#-#  premmerce-code.pot (Premmerce 1.2.1)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: src/Admin/Admin.php:61 src/Admin/Admin.php:62 views/admin/main.php:3
+msgid "Premmerce"
+msgstr "Premmerce"

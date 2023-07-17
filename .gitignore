@@ -1,0 +1,63 @@
+# Ignore core WordPress files
+wp-admin/
+wp-includes/
+wp-config.php
+
+# Ignore cache and backup files
+wp-content/advanced-cache.php
+wp-content/backup-db/
+wp-content/backups/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/ewww/
+wp-content/wpvividbackups
+
+# Ignore plugins and themes
+wp-content/plugins/
+wp-content/themes/
+
+
+# Ignore specific files
+wp-content/debug.log
+.htaccess
+sitemap.xml
+php_errorlog
+
+# Ignore development and build files
+node_modules/
+npm-debug.log
+gulpfile.js
+package.json
+package-lock.json
+
+# Ignore build directories
+/build/
+/dist/
+
+# Ignore environment-specific configuration files
+.env
+.env.*
+
+# Ignore server-specific files
+error_log
+access_log
+
+# Ignore miscellaneous files
+*.log
+*.swp
+*.bak
+*.sql
+*.zip
+*.rar
+*.tar.gz
+*.tar.bz2
+*.gz
+*.bz2
+*.tgz
+*.tbz
+*.xpi
+*.yml
+
+.idea
