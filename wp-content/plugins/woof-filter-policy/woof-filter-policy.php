@@ -28,11 +28,186 @@ if (!defined('WPINC')) {
  */
 define('WOOF_FILTER_POLICY_VERSION', '1.0.0');
 
+add_action('admin_menu', 'true_top_menu_page', 25);
+
+// Add the following code after your add_settings_link function
+
 /**
- * The code that runs during plugin activation.
- * This action is documented in includes/class-woof-filter-policy-activator.php
+ * Add link to plugin setting page on plugins page.
  */
-add_filter('option_woof_settings', 'ft_option_woof_settings');
+add_filter('plugin_action_links', function ($links, $file) {
+
+    //проверка - наш это плагин или нет
+    if ($file != plugin_basename(__FILE__)) {
+        return $links;
+    }
+
+    // создаем ссылку
+    $settings_link = sprintf('<a href="%s">%s</a>', admin_url('admin.php?page=woof-filter-policy'), 'Settings');
+
+    array_unshift($links, $settings_link);
+    return $links;
+}, 10, 2);
+
+function true_top_menu_page()
+{
+
+    add_menu_page(
+        'Настройки WOOF Filter Policy', // тайтл страницы
+        'WOOF Filter Policy', // текст ссылки в меню
+        'manage_options', // права пользователя, необходимые для доступа к странице
+        'woof-filter-policy', // ярлык страницы
+        'woof_filter_policy_settings_page', // функция, которая выводит содержимое страницы
+        'dashicons-filter', // иконка, в данном случае из Dashicons
+        20 // позиция в меню
+    );
+}
+
+// Add the following function to retrieve all product categories
+function get_product_categories()
+{
+    $categories = get_terms(array(
+        'taxonomy' => 'product_cat',
+        'hide_empty' => false,
+    ));
+
+    $category_options = array();
+    foreach ($categories as $category) {
+        $category_options[$category->slug] = $category->name;
+    }
+
+    return $category_options;
+}
+
+/**
+ * Get WOOF filters in array.
+ */
+function get_woof_filters()
+{
+    $filters = [];
+
+    remove_filter('option_woof_settings', 'wbc_option_woof_settings');
+    $woof_settings = get_option('woof_settings');
+    add_filter('option_woof_settings', 'wbc_option_woof_settings');
+
+    if (isset($woof_settings['tax'])) {
+        foreach ($woof_settings['tax'] as $tax => $value) {
+            $label = get_taxonomy($tax)->labels->singular_name;
+            $filters[$tax] = $label;
+        }
+    }
+
+    return $filters;
+}
+
+function get_woof_filter_terms()
+{
+    $woof_filter_terms = array();
+
+    // Get all Woof filters
+    remove_filter('option_woof_settings', 'wbc_option_woof_settings');
+    $woof_settings = get_option('woof_settings');
+    add_filter('option_woof_settings', 'wbc_option_woof_settings');
+
+    if (isset($woof_settings['tax'])) {
+        foreach ($woof_settings['tax'] as $tax => $value) {
+            $label = get_taxonomy($tax)->labels->singular_name;
+            $woof_filter_terms[$tax] = array(
+                'label' => $label,
+                'terms' => array(),
+            );
+            $woof_filter_terms[$tax]['terms'] = get_terms(array(
+                'taxonomy' => $tax,
+                'hide_empty' => false,
+            ));
+        }
+    }
+
+    return $woof_filter_terms;
+}
+
+function woof_filter_policy_settings_page()
+{
+    ?>
+    <div class="wrap">
+        <h2 id="title">
+            <?php
+            // Admin panel title.
+            echo(esc_html(__('WOOF Filter Policy', 'woof-filter-policy')));
+            ?>
+        </h2>
+
+        <div class="wbc-col left">
+            <form id="wbc-options" action="<?php echo esc_url(admin_url('options.php')); ?>" method="POST">
+                <?php
+                settings_fields('woof-filter-policy_group'); // Hidden protection fields.
+
+                // Get saved options
+                $options = get_option('woof_filter_policy_option_name');
+
+                // Retrieve Woof filters and product categories
+                $woof_filters = get_woof_filters();
+                $categories = get_product_categories();
+                $woof_filter_terms = get_woof_filter_terms();
+                // Output multi-select fields for Woof filters and product categories
+                ?>
+
+                <h3>Выберите категорию</h3>
+                <select name="woof_filter_policy_option_name[categories]">
+                    <?php
+                    foreach ($categories as $slug => $name) {
+                        echo '<option value="' . esc_attr($slug) . '" ' . selected(in_array($slug, $options['categories']), true, false) . '>' . esc_html($name) . '</option>';
+                    }
+                    ?>
+                </select>
+
+                <h3>Выберите фильтр WOOF</h3>
+
+                <div class="woof-filters-select">
+                    <?php
+                    $index = 0;
+                    foreach ($woof_filters as $slug => $name) {
+                        if ($index < 3) {
+                            echo '<label><input type="checkbox" name="woof_filter_policy_option_name[woof_filters][]" value="' . esc_attr($slug) . '" ' . checked(in_array($slug, $options['woof_filters']), true, false) . '> ' . esc_html($name) . '</label>';
+                        } else {
+                            echo '<label class="hidden-checkbox" style="display:none;"><input type="checkbox" name="woof_filter_policy_option_name[woof_filters][]" value="' . esc_attr($slug) . '" ' . checked(in_array($slug, $options['woof_filters']), true, false) . '> ' . esc_html($name) . '</label>';
+                        }
+                        $index++;
+                    }
+
+                    if (count($woof_filters) > 3) {
+                        echo '<span class="toggle-filters">▼ Развернуть</span>';
+                    }
+                    ?>
+                </div>
+
+                <div class="term_wrapper">
+                    <?php
+                    foreach ($woof_filter_terms as $tax => $data) {
+                        echo '<h3 class="terms-title" style="display:none;">' . esc_html($data['label']);
+                        echo ' <span class="toggle-checkboxes" style="cursor: pointer">▼</span>'; // Add the toggle arrow icon inside the header
+                        echo '</h3>';
+                        echo '<div class="woof-filter-terms-select" data-taxonomy="' . esc_attr($tax) . '" style="display:none;">';
+                        foreach ($data['terms'] as $term) {
+                            echo '<label><input type="checkbox" name="woof_filter_policy_option_name[woof_filters][' . esc_attr($tax) . '][]" value="' . esc_attr($term->slug) . '" ' . checked(in_array($term->slug, $options['woof_filters'][$tax]), true, false) . '> ' . esc_html($term->name) . '</label><br>';
+                        }
+                        echo '</div>';
+                    }
+                    ?>
+                </div>
+
+            </form>
+
+        </div>
+        <?php
+        submit_button();
+        ?>
+        <button class="add-form">Добавить категорию <span class="plus">+</span></button>
+    </div>
+
+    <?php
+}
+
 
 function ft_option_woof_settings($value)
 {
@@ -81,7 +256,8 @@ function ft_option_woof_settings($value)
 }
 
 add_filter('woof_terms_filter', 'custom_woof_terms_filter', 10, 2);
-function custom_woof_terms_filter($terms, $current_category_slug) {
+function custom_woof_terms_filter($terms, $current_category_slug)
+{
     $results = get_woof_results();
 
     $filtered_terms = [];
@@ -106,12 +282,14 @@ function custom_woof_terms_filter($terms, $current_category_slug) {
     return $filtered_terms;
 }
 
-function debug($value) {
+function debug($value)
+{
     echo '<pre>' . print_r($value, 1) . '</pre>';
     die();
 }
 
-function get_woof_results() {
+function get_woof_results()
+{
     global $wpdb;
 
     $table_name = $wpdb->prefix . 'woof_allowed_filter';
@@ -277,5 +455,6 @@ function run_woof_filter_policy()
     $plugin = new Woof_Filter_Policy();
     $plugin->run();
 }
+
 
 run_woof_filter_policy();

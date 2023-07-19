@@ -1,3 +1,107 @@
 /**
  * All of the CSS for your admin-specific functionality should be included in this file.
  */
+
+.wrap {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.wbc-col {
+    margin-top: 20px;
+}
+
+select,
+label,
+input[type="checkbox"],
+.toggle-filters {
+    font-size: 15px;
+    line-height: 1.3;
+}
+
+.woof-filters-select label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.term_wrapper {
+    margin-top: 20px;
+}
+
+.woof-filter-terms-select label {
+    display: block;
+}
+
+.toggle-filters {
+    cursor: pointer;
+    color: #0073aa;
+}
+
+/* Additional styles for form elements */
+select {
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Styling for hidden checkboxes */
+.hidden-checkbox {
+    display: none;
+}
+
+.woof-filters-select {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.toggle-filters {
+    cursor: pointer;
+}
+
+.wbc-col {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    gap: 20px;
+}
+
+/* Button styles */
+.add-form {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #707e85;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.add-form:hover {
+    background-color: #005d86;
+}
+
+/* Plus icon style */
+.plus {
+    margin-left: 5px;
+    font-size: 20px;
+}
